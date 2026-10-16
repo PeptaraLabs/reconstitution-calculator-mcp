@@ -30,7 +30,7 @@ Requires Node.js 18 or newer.
 Run it with npx:
 
 ```bash
-npx -y github:PeptaraLabs/reconstitution-calculator-mcp
+npx -y reconstitution-calculator-mcp
 ```
 
 Or run it from a local copy:
@@ -49,7 +49,7 @@ Add this to `claude_desktop_config.json`:
   "mcpServers": {
     "reconstitution-calculator": {
       "command": "npx",
-      "args": ["-y", "github:PeptaraLabs/reconstitution-calculator-mcp"]
+      "args": ["-y", "reconstitution-calculator-mcp"]
     }
   }
 }
