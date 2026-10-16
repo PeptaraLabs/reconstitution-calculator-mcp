@@ -1,0 +1,41 @@
+{
+  "name": "reconstitution-calculator-mcp",
+  "version": "1.0.0",
+  "description": "MCP server with lab math tools: reconstitution concentration, unit conversion, C1V1 dilution, molarity, percent w/v and serial dilution.",
+  "mcpName": "io.peptaralabs/reconstitution-calculator",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "reconstitution-calculator-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http",
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "lab",
+    "calculator",
+    "reconstitution",
+    "molarity",
+    "dilution",
+    "unit-conversion"
+  ],
+  "author": "Peptara Labs",
+  "license": "MIT",
+  "homepage": "https://www.peptaralabs.io",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  }
+}
