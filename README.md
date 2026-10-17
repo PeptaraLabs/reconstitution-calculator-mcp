@@ -2,7 +2,7 @@
 
 A small Model Context Protocol server with six lab math tools. Pure math, no network calls, no data stored. Same formulas as the Reconstitution Calculator browser extension.
 
-Made by Peptara Labs (https://www.peptaralabs.io)
+Made by [Peptara Labs](https://www.peptaralabs.io) ([peptaralabs.io](https://www.peptaralabs.io))
 
 ## Tools
 
